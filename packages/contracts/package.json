@@ -1,0 +1,21 @@
+{
+  "name": "@reliabond/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reliabond SLA Bond Smart Contracts",
+  "scripts": {
+    "compile": "forge build",
+    "test": "forge test",
+    "deploy": "tsx scripts/deploy.ts",
+    "deploy:testnet": "CHAIN=base-sepolia tsx scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@thirdweb-dev/sdk": "^4.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
