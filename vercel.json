@@ -1,0 +1,6 @@
+{
+  "installCommand": "npm i -g pnpm@8.15.6 && pnpm install",
+  "buildCommand": "pnpm run build",
+  "framework": "nextjs",
+  "outputDirectory": "apps/web/.next"
+}
